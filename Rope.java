@@ -114,5 +114,14 @@ public class Rope {
 		}
 	}
 	
+	public String toString(){
+		if (altura == 0){
+			return cadena;
+		}
+		else{
+			return ropeIzquierda.toString()+ropeDerecha.toString();
+		}
+	}
+	
 
 }
